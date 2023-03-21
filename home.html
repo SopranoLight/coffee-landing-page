@@ -4,25 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./home.css" />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./home.css">
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <a class="logo__links" href="#" title="logo"
-          ><img class="logo__svg" src="#" alt=""><img class="logo__svg" src="#" alt=""></a>
+      <div class="container__block">
+          <div class="logo">
+            <a class="logo__links" href="#" title="logo">
+              <img class="logo__svg" src="./img/logo-bean.png" alt="">
+              <img class="logo__svg" src="./img/logo-header-black.png" alt="">
+            </a>
+          </div>
+          <nav class="navigation navigation-header">
+            <ul class="navigation__list">
+              <li><a class="navigation__link" href="#" title="home">HOME</a></li>
+              <li><a class="navigation__link" href="#" title="about us">ABOUT US</a></li>
+              <li><a class="navigation__link" href="#" title="create your plan">CREATE YOUR PLAN</a></li>
+            </ul>
+          </nav>
       </div>
-      <nav class="navigation navigation-header">
-        <ul class="navigation">
-          <li><a href="#" title="home">HOME</a></li>
-          <li><a href="#" title="about us">ABOUT US</a></li>
-          <li><a href="#" title="create your plan">CREATE YOUR PLAN</a></li>
-        </ul>
-      </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="great-coffee">
+            <div class="great-coffee__container">
+                <h1 class="title great-coffee__title">Great coffee
+                    made simple.</h1>
+                <p class="paragraf great-coffee__paragraf">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                <button class="btn" type="submit">Create your plan</button>
+            </div>
+        </section>
+        <section class="our-collection">
+            <img class="our-collection__background" src="./img/background-colection.png" alt="">
+            <article class="product">
+             <img class="product__foto" src="./img/colection-kopi1.png" alt="">
+             <span class="title-mid product__title-mid">Gran Espresso</span>
+             <p class="paragraf product__paragraf">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+            </article>
+            <article class="product">
+                <img class="product__foto" src="./img/colection-kopi2.png" alt="">
+                <span class="title-mid product__title-mid">Planalto</span>
+                <p class="paragraf product__paragraf">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+               </article>
+               <article class="product">
+                <img class="product__foto" src="./img/colection-kopi3.png" alt="">
+                <span class="title-mid product__title-mid">Piccollo</span>
+                <p class="paragraf product__paragraf">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+               </article>
+               <article class="product">
+                <img class="product__foto" src="./img/colection-kopi4.png" alt="">
+                <span class="title-mid product__title-mid">Danche</span>
+                <p class="paragraf product__paragraf">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+               </article>
+        </section>
+        <section class="choose-us">
+            <h2 class="title__min">Why choose us?</h2>
+            <p class="paragraf choose-us__paragraf">A large part of our role is choosing which particular coffees will be featured 
+                in our range. This means working closely with the best coffee growers to give 
+                you a more impactful experience on every level.</p>
+         <div class="item__container">
+             <article class="item">
+                <img class="item__foto" src="./icons/coffee-bean.svg" alt="">
+                <span class="title-mid item__title-mid">Best quality</span>
+                <p class="paragraf item__paragraf">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+             </article>
+             <article class="item">
+                <img class="item__foto" src="./icons/gift-bean.svg" alt="">
+                <span class="title-mid item__title-mid">Exclusive benefits</span>
+                <p class="paragraf item__paragraf">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+             </article>
+             <article class="item">
+                <img class="item__foto" src="./icons/deliveri-bean.svg" alt="">
+                <span class="title-mid item__title-mid">Free shipping</span>
+                <p class="paragraf item__paragraf">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+             </article>
+         </div>
+        </section>
+        <section class="plan">
+            <span class="tittle__super-min plan_tittlesuper-min">How it works</span>
+           <div class="test"></div>
+            <div class="info-coffee">
+                <div class="test"></div>
+               <article class="info-coffee__item">
+                <span class="info-coffee__number">01</span>
+                <span class="info-coffee__title">Pick your
+                    coffee</span>
+                    <p class="paragraf info-coffee__paragraf">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+               </article>
+               <article class="info-coffee__item">
+                <span class="info-coffee__number">02</span>
+                <span class="info-coffee__title">Choose the frequency</span>
+                    <p class="paragraf info-coffee__paragraf">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+               </article>
+               <article class="info-coffee__item">
+                <span class="info-coffee__number">03</span>
+                <span class="info-coffee__title">Receive and enjoy!</span>
+                    <p class="paragraf info-coffee__paragraf">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+               </article>
+            </div>
+            <button class="btn" type="submit">Create your plan</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container__block">
+        <div class="logo-plus-nav">
+            <div class="logo">
+              <a class="logo__links" href="#" title="logo">
+                <img class="logo__svg" src="./img/logo-bean.png" alt="">
+                <img class="logo__svg" src="./img/logo-footer-white.png" alt="">
+              </a>
+            </div>
+            <nav class="navigation navigation-footer">
+              <ul class="navigation__list">
+                <li><a class="navigation__link" href="#" title="home">HOME</a></li>
+                <li><a class="navigation__link" href="#" title="about us">ABOUT US</a></li>
+                <li><a class="navigation__link" href="#" title="create your plan">CREATE YOUR PLAN</a></li>
+              </ul>
+            </nav>
+        </div>
+        <div class="footer__icons">
+            <img src="./icons/feacbook.svg" alt="">
+            <img src="./icons/feacbook.svg" alt="">
+            <img src="./icons/feacbook.svg" alt="">
+        </div>
+        </div>
+    </footer>
   </body>
 </html>
