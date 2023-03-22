@@ -126,6 +126,8 @@ a {
   display: flex;
   gap: 95px;
   position: relative;
+  margin-left: 85px;
+  flex-wrap: wrap;
 }
 .tittle__super-min {
   font-family: "Fraunces 9pt";
@@ -161,12 +163,23 @@ a {
   width: 200px;
 }
 .test {
-  width: 760px;
+  width: 790px;
   height: 1px;
   background-color: #fdd6ba;
   position: absolute;
   top: -20%;
  
+}
+.cicle{
+  background: #fefcf7;
+ 
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  top: -15px;
+  left: 380px;
+  position: absolute;
 }
 .test::before {
   background: #fefcf7;
